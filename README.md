@@ -1,7 +1,7 @@
 ## Spring Boot based RESTful API, it offers an endpoint to retrieve data from Transferwise 
 
 
-The purpose of this API is to offer an endpoint to connect to Transferwise, get a quote and store the operation log in the embedded H2 database.
+The purpose of this API is to offer an endpoint to connect to Transferwise, get a quote and store a log for the operation in the embedded H2 database.
 The URL the applications fetches data from is https://api.sandbox.transferwise.tech/v1/quotes.
 You must provide valid business_profile_id, sandbox_API_key, source_currency and rate_type in the resources/config.properties file.
 
@@ -39,8 +39,6 @@ The REST method used to perform the request is POST and the body should adhere t
 	"userId": "1" ,
     "paymentAmount": "12.34"
 } 
-
-Two users are stored in the USER table at application startup, having userId = 1 and userId = 2.
 
 
 ### Notes:
