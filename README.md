@@ -1,4 +1,4 @@
-# Spring Boot based RESTful API, it offers an endpoint to retrieve data from Transferwise 
+## Spring Boot based RESTful API, it offers an endpoint to retrieve data from Transferwise 
 
 
 The purpose of this API is to offer an endpoint to connect to Transferwise, get a quote and store the operation log in the embedded H2 database.
